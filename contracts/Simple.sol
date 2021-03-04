@@ -11,7 +11,7 @@ contract Simple {
 
     mapping(string => Tool) tools;
 
-    constructor() {
+    constructor() public {
         balance = 100;
     }
 
